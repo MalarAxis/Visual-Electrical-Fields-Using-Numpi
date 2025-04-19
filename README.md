@@ -48,16 +48,16 @@ python "C:\Users\YourUsername\Downloads\Electric.Field.Lines.for.Circular.Loop.p
 5. You will be prompted on the following:
 - Radius of the ring
 - Line Charge density
-- Number of points of discretize the ring
+- Number of points to discretize the ring
 - Number of samples for the field in x, y, z directions
 
 6. Enjoy the simulation 😁
 
 ---
 
-## ⚡ Visualize Electric Fields Using Matplotlib
+## ⚡ Visualize Electric Fields Using Matplotlib (Vector Plot)
 
-This script is mainly focuses on showcasing the vector field of an Electric Field 
+This script focuses primarily on showcasing the vector field of an Electric Field
 
 ---
 
@@ -95,25 +95,26 @@ conda install numpy matplotlib
 
 Once you've installed the required environment (see above), follow these steps:
 
-1. **Download the script** (`Electric.Field.Lines.for.Circular.Loop.py`) and place it somewhere easy to find — for example: Your Downloads folder 📂
+1. **Download the script** (`Electric.Vector.lines.for.Circular.Loop.py`) and place it somewhere easy to find — for example: Your Downloads folder 📂
 2. **Open Anaconda Prompt** and activate your environment:
 
 ```bash
-conda activate electricfield-env
+conda activate electricfield-mpl
 ```
 3. Copy the directory of where your script is located. I perfer to copy as path as shown in the image below
 ![image](https://github.com/user-attachments/assets/3750e402-d1b2-4753-87b0-2775b43bf315)
 
 4. Insert the following prompt. Note: Your path will be slightly different.
 ```bash
-python "C:\Users\YourUsername\Downloads\Electric.Field.Lines.for.Circular.Loop.py"
+python "C:\Users\YourUsername\Downloads\Electric.Vector.lines.for.Circular.Loop.py"
 ```
 5. You will be prompted on the following:
 - Radius of the ring
 - Line Charge density
-- Number of points of discretize the ring
+- Number of points to discretize the ring
 - Number of samples for the field in x, y, z directions
 
 6. Enjoy the simulation 😁
+(Tip: You can zoom and rotate for better view of the field)
 
 ---
