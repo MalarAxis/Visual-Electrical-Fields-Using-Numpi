@@ -27,3 +27,10 @@ When using Anaconda, insert the prompts below. Have not found a constist way to 
 conda create -n electricfield-env python=3.10
 conda activate electricfield-env
 conda install -c conda-forge mayavi pyface pyqt numpy
+
+## ▶️ Usage
+
+Once you've installed the required environment (see above), follow these steps:
+
+1. **Download the script** (`electric_field.py`) and place it somewhere easy to find — for example:
+
