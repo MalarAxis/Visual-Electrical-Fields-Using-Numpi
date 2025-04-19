@@ -1,5 +1,4 @@
-# Visual-Electrical-Fields-Using-Numpi
-This project will contist of building upon the vector program I created
+# Visualizing the Electric Field using Vector Fields and Field Lines
 
 This repository has two different scripts, one that expresses the Electric Field in a Vector field while the other has a visual of the curvature of the field.
 
@@ -46,4 +45,75 @@ conda activate electricfield-env
 ```bash
 python "C:\Users\YourUsername\Downloads\Electric.Field.Lines.for.Circular.Loop.py"
 ```
+5. You will be prompted on the following:
+- Radius of the ring
+- Line Charge density
+- Number of points of discretize the ring
+- Number of samples for the field in x, y, z directions
 
+6. Enjoy the simulation 😁
+
+---
+
+## ⚡ Visualize Electric Fields Using Matplotlib
+
+This script is mainly focuses on showcasing the vector field of an Electric Field 
+
+---
+
+### 🖼️ Preview of the Vector Field
+![image](https://github.com/user-attachments/assets/f34bd111-e22a-4954-9e6e-02fe0fc23ae3) ![image](https://github.com/user-attachments/assets/60b18b13-43fb-4733-b13c-ecc68e023bd1)
+
+---
+
+### 🚀 Features
+
+- Discretizes a charged ring
+- Calculates 3D electric field vectors
+- Visualizes vectors with `matplotlib.pyplot.quiver`
+
+---
+
+### 📦 Requirements
+
+- Python 3.10+ Link: https://www.python.org/downloads/
+- NumPy
+- Matplotlib
+- Tkinter (included with Python)
+- (Optional but preferable) Anaconda Link: https://www.anaconda.com/download
+
+---
+
+### 🛠 Installation
+When using Anaconda, insert the prompts below.
+```bash
+conda create -n electricfield-mpl python=3.10
+conda activate electricfield-mpl
+conda install numpy matplotlib
+```
+## ▶️ Usage
+
+Once you've installed the required environment (see above), follow these steps:
+
+1. **Download the script** (`Electric.Field.Lines.for.Circular.Loop.py`) and place it somewhere easy to find — for example: Your Downloads folder 📂
+2. **Open Anaconda Prompt** and activate your environment:
+
+```bash
+conda activate electricfield-env
+```
+3. Copy the directory of where your script is located. I perfer to copy as path as shown in the image below
+![image](https://github.com/user-attachments/assets/3750e402-d1b2-4753-87b0-2775b43bf315)
+
+4. Insert the following prompt. Note: Your path will be slightly different.
+```bash
+python "C:\Users\YourUsername\Downloads\Electric.Field.Lines.for.Circular.Loop.py"
+```
+5. You will be prompted on the following:
+- Radius of the ring
+- Line Charge density
+- Number of points of discretize the ring
+- Number of samples for the field in x, y, z directions
+
+6. Enjoy the simulation 😁
+
+---
