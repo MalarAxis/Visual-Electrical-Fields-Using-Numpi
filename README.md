@@ -18,4 +18,10 @@ This repository has two different scripts, one that expresses the Electric Field
 - PyQt5
 - Pyface
 - (Optional but preferable) Anaconda Link: https://www.anaconda.com/download
-- 
+
+## 📦 Installation
+
+```bash
+conda create -n electricfield-env python=3.10
+conda activate electricfield-env
+conda install -c conda-forge mayavi pyface pyqt numpy
