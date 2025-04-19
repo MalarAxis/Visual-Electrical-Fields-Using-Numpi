@@ -21,6 +21,8 @@ This repository has two different scripts, one that expresses the Electric Field
 
 ## 📦 Installation
 
+When using Anaconda, insert the prompts below. Have not found a constist way to use pip on windows without it causing a massive headache.
+
 ```bash
 conda create -n electricfield-env python=3.10
 conda activate electricfield-env
